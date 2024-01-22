@@ -3,10 +3,10 @@ import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUserError, fetchUserSuccess, deleteuser, updateuser } from './userslice';
 import SearchBar from './SearchBar';
-import TableHeader from './TableHeader';
-import TableBody from './Table';
+import TableHeader from './Table/TableHeader';
+import TableBody from './Table/Table';
 import Pagination from './Pagination';
-import Table from './Table';
+import Table from './Table/Table';
 import './app.css'
 
 function App() {
